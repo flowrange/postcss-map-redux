@@ -1,8 +1,6 @@
 # postcss-map
 
-[![npm version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
+A quick PostCss 8 compatible fork of [postcss-map](https://github.com/pascalduez/postcss-map).
 
 > [PostCSS] plugin enabling configuration maps.
 
@@ -237,21 +235,21 @@ output:
 
 ### basePath
 
-type: `String`  
-default: `process.cwd`  
+type: `String`
+default: `process.cwd`
 Base path to retrieve maps from.
 
 ### maps
 
-type: `Array`  
-default: `[]`  
+type: `Array`
+default: `[]`
 An array representing maps files to load and parse.
-Map files can either be in YAML or JSON format.  
+Map files can either be in YAML or JSON format.
 You can also pass literal objects directly into the Array.
 
 ### defaultMap (short syntax)
 
-type: `string`  
+type: `string`
 default: `config`
 
 A shorter syntax is also available, so you don't have to type the map name on each call. To enable it you need to either have a map called `config` or only one map in your settings.

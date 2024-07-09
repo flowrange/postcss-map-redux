@@ -1,6 +1,6 @@
 {
-  "name": "postcss-map",
-  "version": "0.11.0",
+  "name": "postcss-map-redux",
+  "version": "0.12.0",
   "description": "PostCSS plugin enabling configuration maps",
   "keywords": [
     "css",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "js-yaml": "^3.12.0",
-    "postcss": "^7.0.2",
+    "postcss": "^8.4.39",
     "reduce-function-call": "^1.0.1"
   },
   "devDependencies": {

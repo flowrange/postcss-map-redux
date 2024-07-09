@@ -34,6 +34,5 @@ test('control: PostCSS API', async () => {
 
   expect(result.css).toBe(expected);
 
-  expect(processor.plugins[0].postcssPlugin).toBe(pluginName);
-  expect(processor.plugins[0].postcssVersion).toBeDefined();
+  expect(processor.plugins[0]().postcssPlugin).toBe(pluginName);
 });
